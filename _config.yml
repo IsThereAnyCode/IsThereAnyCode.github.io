@@ -7,4 +7,6 @@ url: https://IsThereAnyCode.github.io/IsThereAnyCode
 aux_links:
   Template Repository: https://IsThereAnyCode.github.io/IsThereAnyCode
 
+@import "./color_schemes/dark";
+
 color_scheme: dark
