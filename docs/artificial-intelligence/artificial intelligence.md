@@ -2,6 +2,8 @@
 title: Artificial Intelligence
 layout: default
 nav_order: 2
+has_childeren: true
+permalink: /docs/artificial-intelligence
 ---
 
 # Artificial Intelligence
