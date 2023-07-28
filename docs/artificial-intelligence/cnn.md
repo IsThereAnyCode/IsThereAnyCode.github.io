@@ -6,6 +6,9 @@ parent: Artificial Intelligence
 
 # Convolutional Neural Network
 
+{: .no_toc }
+
+1. TOC
 {:toc}
 
 ---
