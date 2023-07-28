@@ -3,7 +3,6 @@ layout: default
 title: Artificial Intelligence
 nav_order: 2
 has_children: true
-has_toc: true
 permalink: /docs/artificial-intelligence
 ---
 
