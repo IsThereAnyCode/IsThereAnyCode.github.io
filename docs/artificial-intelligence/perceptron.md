@@ -1,8 +1,9 @@
 ---
-title: 퍼셉트론(Perceptron)
 layout: default
-parent: Artificial Intelligence
+title: Perceptron(퍼셉트론)
 nav_order: 1
+parent: Artificial Intelligence
+permalink: /docs/artificial-intelligence
 ---
 
 # 퍼셉트론의 개념
