@@ -4,11 +4,8 @@ title: CNN(컨볼루션 신경망)
 parent: Artificial Intelligence
 ---
 
-# Convolutional neural network
+# Convolutional Neural Network
 
-{: .no_toc }
-
-1. TOC
 {:toc}
 
 ---
