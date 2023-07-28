@@ -4,10 +4,11 @@ layout: default
 nav_order: 2
 ---
 
-# Configuration
+# Artificial Intelligence
 {: .no_toc }
 
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
+인공지능에 대해서 공부한 것을 포스팅 하도록 하겠습니다.
+
 {: .fs-6 .fw-300 }
 
 ## Table of contents

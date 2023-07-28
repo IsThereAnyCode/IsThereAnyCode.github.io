@@ -4,10 +4,11 @@ layout: default
 nav_order: 3
 ---
 
-# Configuration
+# Algorithm
 {: .no_toc }
 
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
+알고리즘에 대해서 공부한 것을 포스팅 하도록 하겠습니다.
+
 {: .fs-6 .fw-300 }
 
 ## Table of contents
