@@ -4,7 +4,8 @@ title: CNN(컨볼루션 신경망)
 parent: Artificial Intelligence
 ---
 
-# 컨볼루션 신경망(Convoulutional neural network)의 개념
+# Convolutional neural network
+
 {: .no_toc }
 
 1. TOC
