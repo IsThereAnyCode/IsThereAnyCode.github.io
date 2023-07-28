@@ -1,6 +1,6 @@
 ---
-title: Home
-layout: home
+title: About Me
+layout: About Me
 nav_order: 1
 ---
 
