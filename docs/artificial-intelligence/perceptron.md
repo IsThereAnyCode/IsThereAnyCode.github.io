@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Perceptron(퍼셉트론)
-nav_order: 1
+nav_order: 2
 parent: Artificial Intelligence
 permalink: /docs/artificial-intelligence
 ---
