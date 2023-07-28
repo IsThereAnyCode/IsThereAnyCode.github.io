@@ -1,6 +1,6 @@
 ---
 title: Algorithm
-layout: Algorithm
+layout: default
 nav_order: 4
 ---
 
