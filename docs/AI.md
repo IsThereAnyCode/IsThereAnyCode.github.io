@@ -1,6 +1,6 @@
 ---
 title: Artificial Intelligence
-layout: Artificial Intelligence
+layout: default
 nav_order: 2
 ---
 
