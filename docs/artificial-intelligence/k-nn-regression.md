@@ -1,6 +1,6 @@
 ---
 layout: default
-title: K-NN(k-neighbor nearest)
+title: K-NN(k-최근접 이웃)
 parent: Artificial Intelligence
 ---
 
