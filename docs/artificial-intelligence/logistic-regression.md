@@ -4,7 +4,7 @@ title: Logistic Regression(로지스틱 회귀)
 parent: Artificial Intelligence
 ---
 
-# Logistic Regression
+# ** Logistic Regression **
 
 · 로지스틱 회귀(Logistic Regression)는 이름은 회귀이지만 분류 모델입니다.
 
