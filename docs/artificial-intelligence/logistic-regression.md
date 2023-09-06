@@ -5,6 +5,7 @@ parent: Artificial Intelligence
 ---
 
 # Logistic Regression 
+{: .no_toc}
 
 · 로지스틱 회귀(Logistic Regression)는 이름은 회귀이지만 분류(Classification) 모델입니다.
 
@@ -13,7 +14,7 @@ parent: Artificial Intelligence
 · 선형 회귀는 예측 결과를 확률로 표현하지만 로지스틱 회귀는 0 혹은 1(분류)로 표현합니다.
 
 ## Table of contents
-{: .no_toc }
+{: .no_toc .text-delta }
 
 1. TOC
 {:toc}
