@@ -20,6 +20,12 @@ math: katex
 
 ## Linear Regression
 
+$$
+\begin{equation}
+\int_0^x \sin(x) dx
+\end{equation}
+$$
+
 ---
 
 ## Simple Linear Regression
