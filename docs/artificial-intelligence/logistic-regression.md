@@ -6,7 +6,7 @@ parent: Artificial Intelligence
 
 # Logistic Regression 
 
-· 로지스틱 회귀(Logistic Regression)는 이름은 회귀이지만 분류 모델입니다.
+· 로지스틱 회귀(Logistic Regression)는 이름은 회귀이지만 분류(Classification) 모델입니다.
 
 · 이 알고리즘은 선형 회귀와 동일하게 선형 방정식을 학습합니다.
  
@@ -27,4 +27,5 @@ parent: Artificial Intelligence
 
 ---
 
+To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
 {: .fs-6 .fw-300 }
