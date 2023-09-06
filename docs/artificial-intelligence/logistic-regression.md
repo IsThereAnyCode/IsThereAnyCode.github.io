@@ -12,6 +12,7 @@ parent: Artificial Intelligence
  
 · 선형 회귀는 예측 결과를 확률로 표현하지만 로지스틱 회귀는 0 혹은 1(분류)로 표현합니다.
 
+## Table of contents
 {: .no_toc }
 
 1. TOC
@@ -27,5 +28,3 @@ parent: Artificial Intelligence
 
 ---
 
-To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
-{: .fs-6 .fw-300 }
