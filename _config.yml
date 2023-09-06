@@ -13,3 +13,5 @@ remote_theme : mmistakes/minimal-mistakes
 
 permalink: pretty
 
+math: katex
+
