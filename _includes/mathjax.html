@@ -1,9 +1,22 @@
-<!-- Automatically display code inside script tags with type=math/tex using MathJax -->
-<script type="text/javascript" defer
-  src="/just-the-docs-tests/assets/js/mathjax-script-type.js">
+{% if page.mathjax %} # post 의 front matter 에 mathjax 항목의 값에 따라 MathJax 를 불러올 지를 결정하는 부분
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ], # 어떤 기호로 수식을 적을지 정하는 부분
+      processEscapes: true
+    }
+  });
 </script>
-
-<!-- Copied from https://docs.mathjax.org/en/latest/web/components/combined.html -->
-<script type="text/javascript" id="MathJax-script" defer
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+<script
+  type="text/javascript"
+  charset="utf-8"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+>
 </script>
+<script
+  type="text/javascript"
+  charset="utf-8"
+  src="https://vincenttam.github.io/javascripts/MathJaxLocal.js"
+>
+</script>
+{% endif %}
