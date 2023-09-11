@@ -3,6 +3,7 @@ description: Hello :) I'm Jayden
 theme: just-the-docs
 baseurl: ""
 url: https://IsThereAnyCode.github.io/IsThereAnyCode
+math: mathjax
 
 aux_links:
   Template Repository: https://IsThereAnyCode.github.io/IsThereAnyCode
@@ -13,12 +14,5 @@ remote_theme : mmistakes/minimal-mistakes
 
 permalink: pretty
 
-plugins:
- - jekyll-mathjax
 
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
+
