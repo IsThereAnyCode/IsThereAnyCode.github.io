@@ -2,7 +2,7 @@
 layout: default
 title: Linear Regression(선형 회귀)
 parent: Artificial Intelligence
-use_math: true
+math: mathjax
 ---
 
 # Linear Regression
