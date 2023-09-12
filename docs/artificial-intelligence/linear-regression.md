@@ -6,6 +6,7 @@ math: mathjax
 ---
 
 # Linear Regression
+{: .no_toc}
 
 · K-최근접 이웃 (K-Nearest Neighbor) 알고리즘은 지도학습 알고리즘 중 하나입니다.
 
