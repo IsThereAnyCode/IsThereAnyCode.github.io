@@ -5,7 +5,6 @@ parent: Artificial Intelligence
 ---
 
 # K-Neighbor Nearest
-
 {: .no_toc}
 
 · K-최근접 이웃 (K-Nearest Neighbor) 알고리즘은 지도학습 알고리즘 중 하나입니다. 분류 및 회귀 문제 모두에 사용될 수 있지만 주로 분류 문제에서 사용됩니다. KNN은 아래와 같은 특징과 원칙을 가지고 있습니다.
