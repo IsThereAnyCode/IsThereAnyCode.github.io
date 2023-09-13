@@ -25,10 +25,6 @@ parent: Artificial Intelligence
 
 ## Euclidean Distance
 
-
-
-lll
-
 ---
 
 ## Code

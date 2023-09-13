@@ -19,6 +19,7 @@ parent: Artificial Intelligence
 1. TOC
 {:toc}
 
+
 ---
 
 ## Sigmoid Function & Graphs
