@@ -42,7 +42,7 @@ parent: Artificial Intelligence
 일반적으로 점과 점 사이의 거리를 구하는 식입니다.
 
 <div style="text-align:center">
-    <img src="/docs/assets/images/knn/euclidean2_img.png" alt="euclidean2" width="300" height="300">
+    <img src="/docs/assets/images/knn/euclidean_img2.png" alt="euclidean2" width="300" height="300">
   <p>
     출처: aigents
   </p>
@@ -54,7 +54,7 @@ parent: Artificial Intelligence
 
 <div style="text-align:center">
     <img src="/docs/assets/images/knn/
-    mantattan_img.png" alt="manhattan" width="300" height="300">
+    manhattan_img.png" alt="manhattan" width="300" height="300">
   <p>
     출처: aigents
   </p>
