@@ -10,7 +10,7 @@ parent: Artificial Intelligence
 · K-최근접 이웃 (K-Nearest Neighbor) 알고리즘은 지도학습 알고리즘 중 하나입니다. 분류 및 회귀 문제 모두에 사용될 수 있지만 주로 분류 문제에서 사용됩니다. 
 
 <div style="text-align:center">
-    <img src="/docs/assets/images/knn_img.png" alt="KNN" width="400" height="300">
+    <img src="/docs/assets/images/knn/knn_img.png" alt="KNN" width="400" height="300">
   <p>
     출처: towardsdatascience
   </p>
@@ -37,9 +37,14 @@ parent: Artificial Intelligence
 
 ## Distance Calculation
 
-	### 1. Euclidean Distance
+### 1. Euclidean Distance
 
-
+​<div style="text-align:center">
+    <img src="/docs/assets/images/knn/euclidean_img.png" alt="KNN" width="400" height="150">
+  <p>
+    출처: datamahadev
+  </p>
+</div>
 
 
 
