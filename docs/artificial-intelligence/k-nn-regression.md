@@ -39,16 +39,26 @@ parent: Artificial Intelligence
 
 ### 1. Euclidean Distance
 
+일반적으로 점과 점 사이의 거리를 구하는 식입니다.
+
 <div style="text-align:center">
-    <img src="/docs/assets/images/knn/euclidean_img.png" alt="euclidean" width="400" height="150">
+    <img src="/docs/assets/images/knn/euclidean2_img.png" alt="euclidean2" width="300" height="300">
   <p>
-    출처: datamahadev
+    출처: aigents
   </p>
 </div>
 
 
 
 ### 2. Manhattan Distance
+
+<div style="text-align:center">
+    <img src="/docs/assets/images/knn/
+    mantattan_img.png" alt="manhattan" width="300" height="300">
+  <p>
+    출처: aigents
+  </p>
+</div>
 
 ---
 
