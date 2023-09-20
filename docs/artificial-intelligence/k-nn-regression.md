@@ -40,7 +40,7 @@ parent: Artificial Intelligence
 ### 1. Euclidean Distance
 
 ​<div style="text-align:center">
-    <img src="/docs/assets/images/knn/euclidean_img.png" alt="KNN" width="400" height="150">
+    <img src="/docs/assets/images/knn/euclidean_img.png" alt="euclidean" width="400" height="150">
   <p>
     출처: datamahadev
   </p>
