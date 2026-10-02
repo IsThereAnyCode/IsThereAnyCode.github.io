@@ -19,14 +19,14 @@
   </script>
   <style>
     :root {
-      --bg: #ffffff; --bg-soft: #f5f5f4; --fg: #1c1b1a; --fg-muted: #57534e; --fg-faint: #8a847d;
+      --bg: #ffffff; --bg-soft: #f5f5f4; --fg: #1c1b1a; --fg-muted: #1c1b1a; --fg-faint: #1c1b1a;
       --rule: #e7e5e4; --accent: #b80e18; --accent-soft: #fbeaeb;
       --font: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       color-scheme: light;
     }
     :root[data-theme="dark"] {
-      --bg: #141312; --bg-soft: #1c1b19; --fg: #ebe9e6; --fg-muted: #b0aaa3; --fg-faint: #857f78;
-      --rule: #2c2a27; --accent: #f0848a; --accent-soft: #2e1719;
+      --bg: #161514; --bg-soft: #222120; --fg: #f2f1ef; --fg-muted: #d2cec9; --fg-faint: #a8a39c;
+      --rule: #363330; --accent: #ef5a5f; --accent-soft: #3a1d1f;
       color-scheme: dark;
     }
     * { box-sizing: border-box; }
@@ -111,18 +111,15 @@
         <a href="mailto:jaehkim@bu.edu" aria-label="Email" title="Email">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/></svg>
         </a>
-        <!-- TODO: replace with real profile URLs -->
-        <a href="#" aria-label="LinkedIn" title="LinkedIn">
+        <a href="https://www.linkedin.com/in/isthereanycode" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
         </a>
-        <a href="#" aria-label="GitHub" title="GitHub">
+        <a href="https://github.com/IsThereAnyCode" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
           <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
         </a>
-        <a href="#" aria-label="Google Scholar" title="Google Scholar">
-          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.24 13.77 0 9.5 12 0l12 9.5-5.24 4.27A7.5 7.5 0 0 0 12 9.5c-2.98 0-5.55 1.75-6.76 4.27zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
-        </a>
       </div>
-      <a class="cv-link" href="assets/Jaehyun-Kim-CV.pdf">
+      <!-- TODO: link the real CV PDF once it is ready -->
+      <a class="cv-link" href="#">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12m0 0-5-5m5 5 5-5M5 20h14"/></svg>
         Download CV
       </a>
@@ -141,8 +138,9 @@
     <main>
       <section id="about">
         <h2>About</h2>
-        <p class="lead">I build machine learning tools for physiological signals and the brain, from cardiac rhythms measured through a camera to the neural circuits of emotion.</p>
-        <p class="muted">I am an M.S. student in Biomedical Engineering at Boston University, supported by the Dean’s Graduate Scholarship. As a computer engineering undergraduate at Daejeon University, I led research on estimating heart rate variability from remote photoplethysmography (rPPG) for atrial fibrillation detection. At the Korea Brain Research Institute, I combined deep learning–based facial expression analysis with immunohistochemistry, cryostat sectioning, and patch-clamp electrophysiology to study emotion-related circuits in the mouse brain.</p>
+        <p class="lead">I use machine learning and deep learning to understand the brain and behavior.</p>
+        <p class="muted">I am a first-year M.S. student in <a href="https://www.bu.edu/eng/academics/departments-and-divisions/biomedical-engineering/" target="_blank" rel="noopener">Biomedical Engineering</a> at Boston University and a research assistant in Frank Guenther’s <a href="https://sites.bu.edu/guentherlab/" target="_blank" rel="noopener">Speech Neuroscience Lab</a>, which studies how the brain controls speech. Previously, I gained hands-on wet-lab experience at the <a href="https://www.kbri.re.kr/new/pages_eng/main/" target="_blank" rel="noopener">Korea Brain Research Institute</a>, from immunohistochemistry to patch-clamp electrophysiology, studying emotion-related circuits in the mouse brain.</p>
+        <p class="muted">Outside the lab, I enjoy Kaggle competitions, soccer, and basketball.</p>
       </section>
 
       <section id="education">
@@ -157,31 +155,17 @@
       <section id="experience">
         <h2>Experience</h2>
         <ol class="timeline">
-          <li><span class="when">2025</span><div class="what"><h3>Software Engineer Intern</h3><span class="where">S-LAB · Seoul, Korea</span>
-            <ul>
-              <li>Reviewed and refactored legacy code with the development team for maintainability and reliability.</li>
-              <li>Debugged and enhanced key application modules in JavaScript, improving response time and reducing errors.</li>
-            </ul></div></li>
-          <li><span class="when">2025</span><div class="what"><h3>Research Intern</h3><span class="where">Korea Brain Research Institute (KBRI) · Daegu, Korea</span>
-            <ul>
-              <li>Implemented deep learning–based facial expression analysis models to relate visual features to emotional representation.</li>
-              <li>Performed immunohistochemistry to identify fear-related protein markers across brain regions.</li>
-              <li>Sectioned mouse brains on a cryostat and performed histological staining of emotion-related circuits.</li>
-              <li>Ran patch-clamp electrophysiology to measure neuronal excitability and synaptic responses.</li>
-            </ul></div></li>
-          <li><span class="when">2023 – 2025</span><div class="what"><h3>Undergraduate Research Assistant</h3><span class="where">AIONE Lab, Daejeon University · Daejeon, Korea</span>
-            <ul>
-              <li>Led research on heart rate variability estimation from rPPG signals for atrial fibrillation detection (manuscript in preparation).</li>
-              <li>Co-authored a YOLO-based walking obstacle risk notification system for visually impaired people (KICS 2023).</li>
-              <li>Set up and administered the department’s multi-user GPU server.</li>
-            </ul></div></li>
+          <li><span class="when">2026 – now</span><div class="what"><h3>Research Assistant</h3><span class="where"><a href="https://sites.bu.edu/guentherlab/" target="_blank" rel="noopener">Speech Neuroscience Lab</a>, Boston University · Boston, MA</span></div></li>
+          <li><span class="when">2025</span><div class="what"><h3>Software Engineer Intern</h3><span class="where">S-LAB · Seoul, Korea</span></div></li>
+          <li><span class="when">2025</span><div class="what"><h3>Research Intern</h3><span class="where"><a href="https://www.kbri.re.kr/new/pages_eng/main/" target="_blank" rel="noopener">Korea Brain Research Institute (KBRI)</a> · Daegu, Korea</span></div></li>
+          <li><span class="when">2023 – 2025</span><div class="what"><h3>Undergraduate Research Assistant</h3><span class="where"><a href="https://sites.google.com/view/aionelab" target="_blank" rel="noopener">AIONE Lab</a>, Daejeon University · Daejeon, Korea</span></div></li>
         </ol>
       </section>
 
       <section id="publications">
         <h2>Publications</h2>
         <div class="pub">
-          <a class="pub-title" href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11667621">YOLO-based Walking Obstacle Risk Notification System for Visually Impaired</a>
+          <span class="pub-title">YOLO-based Walking Obstacle Risk Notification System for Visually Impaired</span>
           <span class="authors">Taehyeong Jo, <strong>Jaehyun Kim</strong>, Seunghyun Jeon</span>
           <span class="venue">Korean Institute of Communications and Information Sciences (KICS), 2023</span>
         </div>
@@ -190,7 +174,7 @@
       <section id="honors">
         <h2>Honors &amp; Scholarships</h2>
         <ol class="timeline">
-          <li><span class="when">2026</span><div class="what"><h3>Dean’s Graduate Scholarship</h3><p>Boston University College of Engineering. Merit-based tuition scholarship for the full M.S. program.</p></div></li>
+          <li><span class="when">2026</span><div class="what"><h3>Dean’s Graduate Scholarship</h3><p>Boston University College of Engineering. Merit-based tuition scholarship for the M.S. program.</p></div></li>
           <li><span class="when">2023</span><div class="what"><h3>Honorable Mention</h3><p>East-West Life Science Research Institute, Daejeon University.</p></div></li>
           <li><span class="when">2020 – 2024</span><div class="what"><h3>Tuition Scholarship</h3><p>Daejeon University. Top academic performance in Computer Engineering.</p></div></li>
         </ol>
